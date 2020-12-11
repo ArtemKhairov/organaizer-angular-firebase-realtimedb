@@ -1,27 +1,58 @@
 # Organaizer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0-rc.3.
+Этот проект создан при помощи [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0-rc.3.
 
-## Development server
+## Сервер разработки
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Необходимо использовать команду  `ng serve` для запуска сервера разработки. 
 
-## Code scaffolding
+Чтобы воспользоваться функциями приложения необходимо перейти по адресу 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ `http://localhost:4200/`
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Сборка
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Запустите команду `ng build` чтобы собрать проект. 
 
-## Running end-to-end tests
+Проект будет храниться в директории `dist/` 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Используйте флаг `--prod` для сборки в продакшн
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## О проекте
+
+Проект сделан в учебных целях для ознакомления с возможностями Angular / TypeScript 
+
+Также была применена база данных firebase с доступом для любого пользователя 
+
+Срок базы данных заканчивается 11.01.2021
+
+Внешний вид:
+
+![gif]
+
+
+## Функциональность
+
+Какие возможности есть у данного SPA?
+
+- Обычный календарь с просмотром дат
+- Запись важных дел на любую возможную дату
+- Удаление выполненной задачи
+
+## Технологии
+
+- [Angular][ang]
+- [Firebase Realtime Database][firebase]
+- [RxJs][rx]
+
+## Сотрудничество
+
+Если вы нашли ошибку или хотите помочь сделать это приложение лучше,оптимизированней или добавить функционал, то свяжитесь со мной :)
+
+[gif]:https://media.giphy.com/media/guagWTnVdEeRoMTDdX/giphy.gif
+[ang]:https://angular.io/
+[firebase]:https://firebase.google.com/
+[rx]:https://rxjs-dev.firebaseapp.com/guide/overview
